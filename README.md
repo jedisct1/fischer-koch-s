@@ -11,7 +11,7 @@ This project generates and visualizes the Fischer-Koch S surface, a fascinating 
 The Fischer-Koch S surface is defined by the implicit equation:
 
 ```text
-cos(2x)�sin(y)�cos(z) + cos(2y)�sin(z)�cos(x) + cos(2z)�sin(x)�cos(y) = 0
+cos(2x)·sin(y)·cos(z) + cos(2y)·sin(z)·cos(x) + cos(2z)·sin(x)·cos(y) = 0
 ```
 
 ## Features
@@ -113,7 +113,7 @@ The Fischer-Koch S surface has numerous practical applications:
 
 ### Algorithm
 
-1. **Grid Generation**: Creates a 3D grid of points in the range [-�, �]
+1. **Grid Generation**: Creates a 3D grid of points
 2. **Function Evaluation**: Computes the implicit equation value at each point
 3. **Smoothing**: Applies Gaussian filter for improved surface quality
 4. **Isosurface Extraction**: Uses marching cubes to generate triangle mesh
