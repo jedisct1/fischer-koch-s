@@ -87,7 +87,7 @@ The surface generation supports different parameters:
 verts, faces = generate_surface(
     resolution=75,           # Higher resolution for better quality
     bounds=(-np.pi, np.pi),  # Coordinate bounds
-    iso_value=0.0           # Isosurface level
+    iso_value=0.0            # Isosurface level
 )
 ```
 
