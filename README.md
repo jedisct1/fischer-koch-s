@@ -140,3 +140,9 @@ Contributions are welcome! Feel free to:
 - Fischer, W. & Koch, E. (1987). "On 3-periodic minimal surfaces"
 - [Applications in Heat Transfer](https://www.mdpi.com/1996-1073/17/3/688)
 - [Bioengineering Applications](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2024.1410837/full)
+
+---
+
+<p align="center">
+  <img src="fischer_koch_s.png" alt="Fischer-Koch S Surface" width="600">
+</p>
