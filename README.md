@@ -2,11 +2,11 @@
 
 A Python visualization tool for the Fischer-Koch S triply periodic minimal surface (TPMS) using the approximated implicit equation.
 
-## <� Overview
+## Overview
 
 This project generates and visualizes the Fischer-Koch S surface, a fascinating mathematical structure with applications in engineering, architecture, and materials science. The surface is defined by an implicit trigonometric equation and exhibits remarkable properties including zero mean curvature and periodic structure in three dimensions.
 
-## =� Mathematical Equation
+## Mathematical Equation
 
 The Fischer-Koch S surface is defined by the implicit equation:
 
@@ -14,7 +14,7 @@ The Fischer-Koch S surface is defined by the implicit equation:
 cos(2x)�sin(y)�cos(z) + cos(2y)�sin(z)�cos(x) + cos(2z)�sin(x)�cos(y) = 0
 ```
 
-## =� Features
+## Features
 
 - **Interactive 3D Visualization**: Rotate, zoom, and pan the surface in real-time
 - **Configurable Resolution**: Adjust mesh quality from 30 to 100 grid points
@@ -22,7 +22,7 @@ cos(2x)�sin(y)�cos(z) + cos(2y)�sin(z)�cos(x) + cos(2z)�sin(x)�cos(y
 - **Marching Cubes Algorithm**: Accurate isosurface extraction using scipy and scikit-image
 - **Smooth Rendering**: Gaussian filtering for enhanced visual quality
 
-## =� Installation
+## Installation
 
 ### Prerequisites
 
@@ -49,7 +49,7 @@ cd fischer-koch-s-plotter
 uv sync
 ```
 
-## <� Usage
+## Usage
 
 ### Interactive Visualization
 
@@ -78,7 +78,7 @@ uv run python fischer_koch_s_save.py
 
 This creates `fischer_koch_s.png` in the current directory.
 
-## =� Examples
+## Examples
 
 The surface generation supports different parameters:
 
@@ -91,7 +91,7 @@ verts, faces = generate_surface(
 )
 ```
 
-## =, Applications
+## Applications
 
 The Fischer-Koch S surface has numerous practical applications:
 
@@ -100,15 +100,16 @@ The Fischer-Koch S surface has numerous practical applications:
 - **Architectural Design**: Structurally efficient space-filling geometries
 - **Filtration Systems**: Enhanced flow characteristics through periodic channels
 - **Metamaterials**: Novel mechanical and optical properties
+- **3D Printing**: Better mechanical properties than gyroid
 
-## =� Dependencies
+## Dependencies
 
 - **numpy**: Numerical computations
 - **matplotlib**: 3D plotting and visualization
 - **scipy**: Signal processing and filtering
 - **scikit-image**: Marching cubes algorithm
 
-## � Technical Details
+## Technical Details
 
 ### Algorithm
 
@@ -124,7 +125,7 @@ The Fischer-Koch S surface has numerous practical applications:
 - Resolution 75: ~45,000 vertices, ~90,000 faces (< 5 seconds)
 - Resolution 100: ~80,000 vertices, ~160,000 faces (< 10 seconds)
 
-## > Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -133,7 +134,7 @@ Contributions are welcome! Feel free to:
 - Share your visualizations and use cases
 - Suggest optimizations for performance
 
-## = References
+## References
 
 - [Triply Periodic Minimal Surfaces](https://en.wikipedia.org/wiki/Triply_periodic_minimal_surface)
 - Fischer, W. & Koch, E. (1987). "On 3-periodic minimal surfaces"
