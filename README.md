@@ -109,22 +109,6 @@ The Fischer-Koch S surface has numerous practical applications:
 - **scipy**: Signal processing and filtering
 - **scikit-image**: Marching cubes algorithm
 
-## Technical Details
-
-### Algorithm
-
-1. **Grid Generation**: Creates a 3D grid of points
-2. **Function Evaluation**: Computes the implicit equation value at each point
-3. **Smoothing**: Applies Gaussian filter for improved surface quality
-4. **Isosurface Extraction**: Uses marching cubes to generate triangle mesh
-5. **Rendering**: Displays the mesh with shading and color mapping
-
-### Performance
-
-- Resolution 50: ~20,000 vertices, ~40,000 faces (< 2 seconds)
-- Resolution 75: ~45,000 vertices, ~90,000 faces (< 5 seconds)
-- Resolution 100: ~80,000 vertices, ~160,000 faces (< 10 seconds)
-
 ## References
 
 - [Triply Periodic Minimal Surfaces](https://en.wikipedia.org/wiki/Triply_periodic_minimal_surface)
