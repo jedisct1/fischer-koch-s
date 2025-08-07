@@ -125,15 +125,6 @@ The Fischer-Koch S surface has numerous practical applications:
 - Resolution 75: ~45,000 vertices, ~90,000 faces (< 5 seconds)
 - Resolution 100: ~80,000 vertices, ~160,000 faces (< 10 seconds)
 
-## Contributing
-
-Contributions are welcome! Feel free to:
-
-- Report bugs or request features via issues
-- Submit pull requests with improvements
-- Share your visualizations and use cases
-- Suggest optimizations for performance
-
 ## References
 
 - [Triply Periodic Minimal Surfaces](https://en.wikipedia.org/wiki/Triply_periodic_minimal_surface)
